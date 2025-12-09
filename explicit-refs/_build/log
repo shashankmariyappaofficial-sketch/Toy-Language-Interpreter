@@ -1,0 +1,19 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/shank/.cache/dune/db
+# Workspace root: "/mnt/c/dev/Principles of
+# Progrmming/PLaF-main/src/explicit-refs"
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/shank/.opam/4.13.1/bin/ocamlc.opt -config > /tmp/dune_72b3ea_output
+$ (cd _build/default && /home/shank/.opam/4.13.1/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I lib/.utop/.utop.eobjs/byte -I /home/shank/.opam/4.13.1/lib/bytes -I /home/shank/.opam/4.13.1/lib/findlib -I /home/shank/.opam/4.13.1/lib/lambda-term -I /home/shank/.opam/4.13.1/lib/logs -I /home/shank/.opam/4.13.1/lib/logs/lwt -I /home/shank/.opam/4.13.1/lib/lwt -I /home/shank/.opam/4.13.1/lib/lwt/unix -I /home/shank/.opam/4.13.1/lib/lwt_react -I /home/shank/.opam/4.13.1/lib/menhirLib -I /home/shank/.opam/4.13.1/lib/mew -I /home/shank/.opam/4.13.1/lib/mew_vi -I /home/shank/.opam/4.13.1/lib/ocaml/compiler-libs -I /home/shank/.opam/4.13.1/lib/ocaml/threads -I /home/shank/.opam/4.13.1/lib/ocplib-endian -I /home/shank/.opam/4.13.1/lib/ocplib-endian/bigstring -I /home/shank/.opam/4.13.1/lib/parser_plaf -I /home/shank/.opam/4.13.1/lib/react -I /home/shank/.opam/4.13.1/lib/result -I /home/shank/.opam/4.13.1/lib/trie -I /home/shank/.opam/4.13.1/lib/uchar -I /home/shank/.opam/4.13.1/lib/utop -I /home/shank/.opam/4.13.1/lib/uucp -I /home/shank/.opam/4.13.1/lib/uuseg -I /home/shank/.opam/4.13.1/lib/uutf -I /home/shank/.opam/4.13.1/lib/xdg -I /home/shank/.opam/4.13.1/lib/zed -I lib/.explicit_refs.objs/byte -no-alias-deps -o lib/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl lib/.utop/utop.ml-gen)
+$ (cd _build/default && /home/shank/.opam/4.13.1/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o lib/.utop/utop.bc /home/shank/.opam/4.13.1/lib/ocaml/compiler-libs/ocamlcommon.cma /home/shank/.opam/4.13.1/lib/ocaml/compiler-libs/ocamlbytecomp.cma /home/shank/.opam/4.13.1/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/shank/.opam/4.13.1/lib/findlib/findlib.cma /home/shank/.opam/4.13.1/lib/findlib/findlib_top.cma /home/shank/.opam/4.13.1/lib/logs/logs.cma /home/shank/.opam/4.13.1/lib/lwt/lwt.cma /home/shank/.opam/4.13.1/lib/logs/lwt/logs_lwt.cma /home/shank/.opam/4.13.1/lib/ocaml/unix.cma /home/shank/.opam/4.13.1/lib/ocaml/bigarray.cma /home/shank/.opam/4.13.1/lib/ocplib-endian/ocplib_endian.cma /home/shank/.opam/4.13.1/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /home/shank/.opam/4.13.1/lib/ocaml/threads/threads.cma /home/shank/.opam/4.13.1/lib/lwt/unix/lwt_unix.cma -I /home/shank/.opam/4.13.1/lib/lwt/../stublibs /home/shank/.opam/4.13.1/lib/react/react.cma /home/shank/.opam/4.13.1/lib/lwt_react/lwt_react.cma /home/shank/.opam/4.13.1/lib/result/result.cma /home/shank/.opam/4.13.1/lib/uutf/uutf.cma /home/shank/.opam/4.13.1/lib/uucp/uucp.cma /home/shank/.opam/4.13.1/lib/uuseg/uuseg.cma /home/shank/.opam/4.13.1/lib/zed/zed.cma /home/shank/.opam/4.13.1/lib/trie/trie.cma /home/shank/.opam/4.13.1/lib/mew/mew.cma /home/shank/.opam/4.13.1/lib/mew_vi/mew_vi.cma /home/shank/.opam/4.13.1/lib/lambda-term/lambda_term.cma -I /home/shank/.opam/4.13.1/lib/lambda-term/../stublibs /home/shank/.opam/4.13.1/lib/xdg/xdg.cma -I /home/shank/.opam/4.13.1/lib/xdg/../stublibs /home/shank/.opam/4.13.1/lib/utop/uTop.cma /home/shank/.opam/4.13.1/lib/menhirLib/menhirLib.cma /home/shank/.opam/4.13.1/lib/parser_plaf/parser_plaf.cma lib/explicit_refs.cma lib/.utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
